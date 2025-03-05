@@ -4,7 +4,7 @@ if (a >= 100 && a <= 999)
 {
 int digit1 = a/100;
 int digit3 = a%10;
-Console.Write(digit1+digit3);
+Console.Write($"{digit1}{digit3}");
 }
 else
 {
