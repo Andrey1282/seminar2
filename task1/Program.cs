@@ -1,5 +1,5 @@
 ﻿Console.Write("Введите трехзначное число: ");
-int a = Convert.ToInt32(ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
 if (a >= 99 && a <= 99)
 {
 int digit1 = a/100;
